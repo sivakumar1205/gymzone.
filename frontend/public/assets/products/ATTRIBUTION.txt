@@ -1,0 +1,29 @@
+Product photographs are downloaded from the Unsplash image CDN and are used under the Unsplash License.
+The local filenames map to their source photos:
+
+adjustable-dumbbells.jpg - https://images.unsplash.com/photo-1703668984128-b506579acdd2
+olympic-barbell.jpg - https://images.unsplash.com/photo-1620188526357-ff08e03da266
+adjustable-bench.jpg - https://images.unsplash.com/photo-1735647134600-fd2b75fba36d
+competition-kettlebell.jpg - https://images.unsplash.com/photo-1632077804406-188472f1a810
+weightlifting-gloves.jpg - https://images.unsplash.com/photo-1636124883069-52aef60095f1
+resistance-bands.jpg - https://images.unsplash.com/photo-1584827386916-b5351d3ba34b
+whey-protein-tub.jpg - https://images.unsplash.com/photo-1693996045300-521e9d08cabc
+creatine-tub.jpg - https://images.unsplash.com/photo-1693996045435-af7c48b9cafb
+pre-workout-tub.jpg - https://images.unsplash.com/photo-1704650311981-419f841421cc
+performance-tee.jpg - https://images.unsplash.com/photo-1618354691373-d851c5c3a990
+training-leggings.jpg - https://images.unsplash.com/photo-1789110853605-a40828573cda
+home-gym-rack.jpg - https://images.unsplash.com/photo-1590487988256-9ed24133863e
+weight-plates.jpg - https://images.unsplash.com/photo-1671321666765-f4630f7eb5f6
+folding-treadmill.jpg - https://images.unsplash.com/photo-1638183395699-2c0db5b6afbb
+lifting-belt.jpg - https://images.unsplash.com/photo-1532382708467-d720b918f0da
+shaker-bottle.jpg - https://images.unsplash.com/photo-1595348020949-87cdfbb44174
+gym-duffel-bag.jpg - https://images.unsplash.com/photo-1758542988969-39a10168b2ce
+electrolyte-tub.jpg - https://images.unsplash.com/photo-1704650311263-4563a029bd9e
+
+Branded supplement product photographs:
+on-gold-standard-whey.jpg - Optimum Nutrition Gold Standard 100% Whey, Vanilla Ice Cream, official product listing: https://www.optimumnutrition.co.in/products/gold-standard-100-whey-protein-powder-vanilla-ice-cream-1118947
+on-micronized-creatine.jpg - Optimum Nutrition Micronised Creatine Powder, official product listing: https://www.optimumnutrition.co.in/products/micronized-creatine-powder-unflavoured-1118952
+cellucor-c4-original.jpg - Compressed local copy of Cellucor C4 Original Pre-Workout, official product listing: https://cellucor.com/products/c4-original
+liquid-iv-hydration-multiplier.jpg - Liquid I.V. Hydration Multiplier Lemon Lime, official product listing: https://www.liquid-iv.com/products/lemon-lime-hydration-multiplier
+
+Product photographs remain the property of their respective brands.

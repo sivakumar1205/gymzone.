@@ -1,0 +1,21 @@
+.auth-page { min-height: 60vh; display: grid; place-items: center; padding-block: 55px 85px; }
+.auth-panel { width: min(100%, 480px); padding: clamp(24px, 5vw, 42px); border: 1px solid var(--line); background: var(--surface); }
+.auth-panel h1 { margin: 10px 0; font-family: 'Barlow Condensed', sans-serif; font-size: clamp(42px, 7vw, 64px); line-height: .95; }
+.auth-intro, .auth-note { color: var(--muted); font-size: 12px; line-height: 1.65; }
+.auth-form { display: grid; gap: 15px; margin-top: 25px; }
+.auth-form label { display: grid; gap: 7px; color: var(--muted); font-size: 9px; font-weight: 700; letter-spacing: .8px; }
+.auth-form input { width: 100%; min-height: 43px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 0; outline-color: var(--orange); background: var(--page); color: var(--text); font-size: 13px; }
+.otp-input { font-size: 24px; font-weight: 700; letter-spacing: 8px; text-align: center; }
+.auth-submit { width: 100%; margin-top: 5px; cursor: pointer; }
+.auth-submit:disabled { opacity: .65; cursor: wait; }
+.auth-resend { width: 100%; min-height: 38px; border: 1px solid var(--line); background: transparent; color: var(--muted); font-size: 9px; font-weight: 700; letter-spacing: .8px; cursor: pointer; transition: color 160ms ease, border-color 160ms ease; }
+.auth-resend:hover:not(:disabled) { color: var(--orange); border-color: var(--orange); }
+.auth-resend:disabled { opacity: .5; cursor: default; }
+.auth-back-link { background: none; border: none; color: var(--orange); font-size: 10px; font-weight: 700; cursor: pointer; padding: 0; }
+.form-message { margin: 0; color: var(--text); font-size: 11px; line-height: 1.5; }
+.form-error { color: #ef7c67; }
+.auth-links { display: flex; justify-content: space-between; gap: 12px; margin-top: 20px; color: var(--muted); font-size: 10px; }
+.auth-links a, .dev-reset-link a { color: var(--orange); }
+.dev-reset-link { margin: 0; font-size: 11px; line-height: 1.6; }
+.dev-otp-code { font-size: 22px; font-weight: 700; letter-spacing: 6px; color: var(--orange); background: color-mix(in srgb, var(--orange) 12%, transparent); padding: 4px 10px; }
+.auth-note { margin: 20px 0 0; font-size: 10px; }

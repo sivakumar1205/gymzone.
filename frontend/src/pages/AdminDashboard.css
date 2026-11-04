@@ -1,0 +1,33 @@
+.admin-page { min-height: 65vh; padding-block: 42px 90px; }
+.admin-page > h1 { margin: 8px 0 28px; font-family: 'Barlow Condensed', sans-serif; font-size: clamp(45px, 6vw, 68px); }
+.admin-page > h1 span { color: var(--orange); }
+.admin-tabs { display: flex; gap: 8px; overflow-x: auto; margin-bottom: 22px; border-bottom: 1px solid var(--line); }
+.admin-tabs button { padding: 12px 15px; border: 0; border-bottom: 2px solid transparent; background: transparent; color: var(--muted); font-size: 9px; font-weight: 700; letter-spacing: .7px; cursor: pointer; }
+.admin-tabs button.is-active { border-color: var(--orange); color: var(--text); }
+.admin-loading { color: var(--muted); font-size: 11px; }
+.admin-products { display: grid; gap: 25px; }
+.admin-product-form { padding: 22px; border: 1px solid var(--line); background: var(--surface); }
+.admin-product-form h2 { margin: 0 0 17px; font-family: 'Barlow Condensed', sans-serif; font-size: 25px; }
+.admin-fields { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.admin-fields label { display: grid; gap: 6px; color: var(--muted); font-size: 9px; }
+.admin-fields input, .admin-fields select, .admin-fields textarea, .admin-table select { min-width: 0; padding: 9px; border: 1px solid var(--line); border-radius: 0; background: var(--page); color: var(--text); font: inherit; }
+.admin-fields textarea { resize: vertical; }
+.admin-fields .admin-wide { grid-column: 1 / -1; }
+.admin-form-actions { display: flex; gap: 10px; margin-top: 15px; }
+.admin-form-actions .button { cursor: pointer; }
+.admin-secondary-button, .admin-danger-button, .admin-restore-button { margin-right: 7px; padding: 7px 9px; border: 1px solid var(--line); background: transparent; color: var(--text); font-size: 8px; font-weight: 700; cursor: pointer; }
+.admin-secondary-button:hover { border-color: var(--orange); color: var(--orange); }
+.admin-danger-button { color: #ef7c67; }
+.admin-restore-button { color: #22c55e; border-color: #22c55e; }
+.admin-restore-button:hover { background: #22c55e; color: #fff; }
+.admin-table-wrap { overflow-x: auto; border: 1px solid var(--line); background: var(--surface); }
+.admin-table { width: 100%; border-collapse: collapse; text-align: left; }
+.admin-table th, .admin-table td { min-width: 100px; padding: 12px; border-bottom: 1px solid var(--line); vertical-align: middle; font-size: 10px; }
+.admin-table th { color: var(--muted); font-size: 8px; letter-spacing: .65px; }
+.admin-table td strong, .admin-table td small { display: block; }
+.admin-table td small { margin-top: 4px; color: var(--muted); overflow-wrap: anywhere; }
+.admin-table td:nth-child(2) { min-width: 160px; }
+.admin-table select { min-width: 110px; text-transform: capitalize; }
+.admin-empty { padding: 15px; color: var(--muted); font-size: 11px; }
+@media (max-width: 720px) { .admin-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 460px) { .admin-fields { grid-template-columns: 1fr; } .admin-fields .admin-wide { grid-column: auto; } }

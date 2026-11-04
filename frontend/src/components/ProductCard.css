@@ -1,0 +1,10 @@
+.product-media { position: relative; }
+.product-discount { position: absolute; right: 10px; bottom: 10px; padding: 6px 8px; background: var(--orange); color: white; font-size: 9px; font-weight: 700; }
+.product-wishlist { position: absolute; z-index: 2; top: 10px; right: 10px; display: grid; width: 34px; height: 34px; place-items: center; border: 0; border-radius: 50%; background: var(--page); color: var(--text); cursor: pointer; transition: color 150ms ease, background 150ms ease; }
+.product-wishlist:hover, .product-wishlist.is-wishlisted { background: var(--orange); color: white; }
+.product-stock { margin: 9px 0 0; font-size: 9px; font-weight: 600; }
+.product-stock.in-stock { color: #67b886; }
+.product-stock.out-of-stock { color: var(--muted); }
+.add-button:disabled { opacity: .4; cursor: not-allowed; }
+.product-title-row h3 a:hover { color: var(--orange); }
+.product-image img { object-fit: contain; }

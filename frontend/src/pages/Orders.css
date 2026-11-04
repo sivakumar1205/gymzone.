@@ -1,0 +1,19 @@
+.orders-page { min-height: 60vh; padding-block: 45px 90px; }
+.orders-page > h1 { margin: 8px 0 30px; font-family: 'Barlow Condensed', sans-serif; font-size: clamp(48px, 6vw, 72px); }
+.orders-page > h1 span { color: var(--orange); }
+.orders-list { display: grid; gap: 18px; }
+.order-card { padding: 22px; border: 1px solid var(--line); background: var(--surface); }
+.order-card header { display: grid; grid-template-columns: minmax(0, 2fr) repeat(3, minmax(0, 1fr)); gap: 15px; padding-bottom: 15px; border-bottom: 1px solid var(--line); }
+.order-card header div { display: grid; gap: 6px; min-width: 0; }
+.order-card header span { color: var(--muted); font-size: 8px; font-weight: 700; letter-spacing: .7px; }
+.order-card header strong { overflow-wrap: anywhere; font-size: 10px; }
+.order-id { font-size: 9px !important; color: var(--muted); }
+.order-payment.paid { color: #22c55e; }
+.order-line, .order-subtotal { display: flex; justify-content: space-between; gap: 12px; margin: 0; padding-top: 12px; font-size: 11px; }
+.order-line strong, .order-subtotal strong { white-space: nowrap; }
+.order-subtotal { margin-top: 8px; padding-top: 12px; border-top: 1px solid var(--line); }
+.order-payment-id { display: flex; justify-content: space-between; gap: 12px; margin: 6px 0 0; font-size: 10px; color: var(--muted); }
+.order-payment-id code { font-size: 9px; color: var(--muted); overflow-wrap: anywhere; }
+.order-empty h2 { margin-top: 0; font-family: 'Barlow Condensed', sans-serif; }
+.orders-empty { display: grid; justify-items: start; gap: 15px; padding: 25px; border: 1px solid var(--line); background: var(--surface); }
+@media (max-width: 680px) { .order-card header { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
